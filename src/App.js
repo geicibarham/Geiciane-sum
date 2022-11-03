@@ -1,12 +1,22 @@
-
-import './App.css';
-
+import "./App.css";
+import Form from "./components/form/Form";
+import Landing from "./components/landingPage/Landing";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 function App() {
   return (
-    <div className="App">
-     
-      
-    </div>
+    <>
+      <Header />
+      <BrowserRouter>
+       
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="play" element={<Form />} />
+        </Routes>
+      </BrowserRouter>
+      <Footer/>
+    </>
   );
 }
 

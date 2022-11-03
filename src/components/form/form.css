@@ -1,0 +1,19 @@
+.form_container {
+  display: flex;
+}
+
+.numbers {
+  height: 25px;
+  width: 25px;
+  padding: 20px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.number1 {
+  background-color: aquamarine;
+}
+
+.number2 {
+  background-color: cadetblue;
+}

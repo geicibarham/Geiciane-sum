@@ -1,0 +1,64 @@
+.landing_outer_container {
+  min-height: 80vh;
+  display: flex;
+  background-image: url("../../assets/images/landscape.jpg");
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Futura, Trebuchet MS, Arial, sans-serif';
+  
+
+}
+
+.comic {font-family: "comic sans ms"}
+.landing_inner_container {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.playButton {
+  background-color: #855636;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.playButton:hover {
+  background-color: #a1663e;
+}
+
+.rewardButton {
+  background-color: #f14a6c;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.rewardButton:hover {
+  background-color: #f16c87;
+}
+
+.landing_inner_container button {
+  border: none;
+  padding: 30px;
+  width: 300px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  border-radius: 20px;
+}
+
+.linkbutton{
+    text-decoration: none;
+}
+@media screen and (min-width: 1200px) {
+  .landing_outer_container {
+    min-height: 85vh;
+  }
+}

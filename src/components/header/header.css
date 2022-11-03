@@ -1,0 +1,11 @@
+
+header{
+    display:flex;
+    justify-content: center;
+    background-color: purple;
+    color:white;
+}
+
+header h1{
+    font-family: 'Bubblegum Sans';font-size: 28px;
+}
