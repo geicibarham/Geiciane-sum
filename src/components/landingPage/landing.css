@@ -5,12 +5,12 @@
   justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: 'Futura, Trebuchet MS, Arial, sans-serif';
-  
-
+  font-family: "Futura, Trebuchet MS, Arial, sans-serif";
 }
 
-.comic {font-family: "comic sans ms"}
+.comic {
+  font-family: "comic sans ms";
+}
 .landing_inner_container {
   display: flex;
 
@@ -54,8 +54,8 @@
   border-radius: 20px;
 }
 
-.linkbutton{
-    text-decoration: none;
+.linkbutton {
+  text-decoration: none;
 }
 @media screen and (min-width: 1200px) {
   .landing_outer_container {
