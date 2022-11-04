@@ -62,3 +62,9 @@
     min-height: 85vh;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .landing_outer_container {
+    min-height: 85vh;
+  }
+}
