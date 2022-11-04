@@ -20,21 +20,38 @@
 
 ## Component Tree and logic
 
-<p>We the App component currently organized our routes and components: the HEADER and Footer components will always show on any component. The Landing page will be the first one to appear when the page first loads, then the user can choose if they want to view the high scores or if they want to plah the game. </p>
+<p>We will have the App component currently organized our routes and components: the HEADER and Footer components will always show on any component. The Landing page will be the first one to appear when the page first loads, then the user can choose if they want to view the high scores or if they want to play the game. </p>
 
 <p>The form component is the main component in this game, from that app we make the Api Call and give the user the feedback wether it is correct or not. </p>
 
 
 ## Form Component and Detailed logic
 
-<p>To manage state in this application I used Use state and Use effect hooks, I also utilized Axios to make the API call cleaner. </p>
+<p>To manage state in this application I will use mainly Use state and Use effect hooks, I also utilized Axios to make the API call cleaner. </p>
 <ol>
-<li>For the random numbers that will be generated, and added, I created two variables (number1 and number2) and utilized Math.Random (to generate random numbers) and Math.Floor (to round down number to the nearest integer). I also put those two numbers inside of the useEffect Hook, and added them to the dependency array. This way, whenever Javascript generates the random numbers, useEffect will take care of the state and make sure it is not out of pace with the User  Interface.</li> <br>
+<li>For the random numbers that will be generated, and added, I will create two variables (number1 and number2) and utilize Math.Random (to generate random numbers) and Math.Floor (to round down number to the nearest integer). I will also put those two numbers inside of the useEffect Hook, and added them to the dependency array. This way, whenever Javascript generates the random numbers, useEffect will take care of the state and make sure it is not out of pace with the User  Interface.</li> <br>
 
-<li>Inside of the same useEffect hook, I placed the Api call with axuis</li>
- </ol>
+<li>Inside of the same useEffect hook, I will the Api call with axios and use the Usestate hook to keep track of the state of the data coming from the Api.</li>
+<br>
+<li>To Track the state of the answer entered by the user, I will use useState hook again and put the input type as "number", this way if the user attempts to enter text in the input, it will not work. The function handle Change will track the change in the input and set the value of the variable "answer" to whatever the user entered. </li>
 
- 
+<br>
+<li>I will also create a function that submits the form and calls the "check answer function". The check answer function will compare the data coming from the Api with the answer provided by the user. If they match, it will provide a feedback for the user and also set the background color to red/green, depending wether the answer is correct or not. </li>
 
 
 </ul>
+
+
+## Enhancements
+
+
+### High Scores
+<p>
+I would love to implement the possibility for the user to have their score saved to local storage. This score would be displayed on the top right of the page and it would just be 0 if user had no score/had never played that game before. To create that functionality, I would start by: <ul>
+<li>Creating a state for the score, which would start at 0</li>
+<li>Creating a state for an array to be saved to local storage</li>
+<li>Every time the user gets the question correctly, the score would increase by 5</li>
+<li>those numbers would be pushed to that initial array, that would also have to be converted to a string, since local storage only allows strings</li>
+<li>Use the use Effect hook to get the score from local storage and display it on the page.</li>
+</ul>
+</p>

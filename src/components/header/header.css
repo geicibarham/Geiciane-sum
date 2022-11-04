@@ -1,11 +1,19 @@
-
-header{
-    display:flex;
-    justify-content: center;
-    background-color: purple;
-    color:white;
+header {
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+  align-items: center;
+  padding: 14px;
 }
 
-header h1{
-    font-family: 'Bubblegum Sans';font-size: 28px;
+header h1 {
+  font-family: "Bubblegum Sans";
+  font-size: 28px;
+  margin: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  margin:auto;
 }

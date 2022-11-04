@@ -1,14 +1,18 @@
-
-
-import './header.css'
-
+import "./header.css";
+import trophy from "../../assets/images/rewards.png";
+import { Link } from "react-router-dom";
 const Header = () => {
+  return (
+    <header>
+      <Link className="link" to="/">
+        <h1>Sum and Have Fun!</h1>
+      </Link>
 
-    return (
-        <header>
-            <h1>Sum and Have Fun!</h1>
-        </header>
-    )
-}
+      <Link to="/scores">
+        <img width="50px" src={trophy} alt="trophy icon" />
+      </Link>
+    </header>
+  );
+};
 
-export default Header
+export default Header;

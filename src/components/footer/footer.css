@@ -11,5 +11,8 @@ footer p{
     font-size: smaller;
     align-self: center;
     margin-bottom: 10px;  
-
 }
+
+.comic {
+    font-family: "comic sans ms";
+  }

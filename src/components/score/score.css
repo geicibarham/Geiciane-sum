@@ -1,0 +1,22 @@
+.score__container {
+  min-height: 85vh;
+  background-image: url("../../assets/images/landscape.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.inner {
+  background-color: #5993c362;
+  width: 50%;
+  height: 70%;
+  border-radius: 30px;
+}
+.score__container h2 {
+  font-family: "Bubblegum Sans";
+  color: #7f5433;
+  text-align: center;
+  font-weight: bold;
+}
