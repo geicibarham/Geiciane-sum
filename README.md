@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+<h1 style="text-align:center">Sum and Fun </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+![Landing Page](https://github.com/geicibarham/Sum-Fun/blob/main/src/assets/images/screenshots/landing.png)
+<p> Landing Page of the APP </p>
 
-In the project directory, you can run:
 
-### `npm start`
+<h2> Usage </h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p>When clicking on the button "play" it will take user to the game page. There they have a form with two numbers, an input box and a submit button to insert the answer.</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Correct answer](https://github.com/geicibarham/Sum-Fun/blob/main/src/assets/images/screenshots/initialgame.png)
 
-### `npm test`
+<p>If the answer is correct, the purple box will turn green.</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Landing Page](https://github.com/geicibarham/Sum-Fun/blob/main/src/assets/images/screenshots/correct.png)
 
-### `npm run build`
+<p>If the answer is incorrect, the purple box will turn red. </p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Incorrect answer](https://github.com/geicibarham/Sum-Fun/blob/main/src/assets/images/screenshots/incorrect.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<h2>High Score </h2>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Incorrect answer](https://github.com/geicibarham/Sum-Fun/blob/main/src/assets/images/screenshots/score.png)
+<p>The functionality of this page will be added in the future as an enhancement, as of right now the score is HARD CODED</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h2>Technologies</h2>
+<ul>
+<li>React</li>
+<li>Javascript</li>
+<li>CSS</li>
+<li>Math.Js Api</li>
+<li>Icon Scout</li>
+<li>React Router</li>
+<li>JSX</li>
+<li>Axios</li>
+<li>React Hooks</li>
+</ul>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<h2>Development</h2>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p>Clone the repo, then run "npm i" to instal all the dependencies. To start the server enter "npm start" on the command line.</p>
 
-## Learn More
+<h2>Production</h2>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p>There is different ways of posting this app to production, run the command "npm run build", then Webpack will generate minified files. You can then utilize GH pages or netfly to deploy the app. I have used GH pages.</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
