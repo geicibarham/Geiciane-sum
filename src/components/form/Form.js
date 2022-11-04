@@ -32,10 +32,13 @@ const Form = () => {
 
   const checkAnswer = () => {
     if (data) {
+     /*eslint eqeqeq: ["error", "smart"]*/
       if (answer == data) {
         setCorrect("Correct");
         setFeedback("That's it! Great Job! 🥳");
       }
+
+        /*eslint eqeqeq: ["error", "smart"]*/
       if (answer != data) {
         setCorrect("incorrect");
         setFeedback("Oops, that does not look right 😔");
