@@ -1,6 +1,8 @@
 <h1 style="text-align:center">Sum and Fun </h1>
 
 
+# [Deployed Application](https://statuesque-syrniki-3c3795.netlify.app/)
+
 ![Landing Page](https://github.com/geicibarham/Sum-Fun/blob/main/src/assets/images/screenshots/landing.png)
 <p> Landing Page of the APP </p>
 
