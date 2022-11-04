@@ -33,12 +33,14 @@ const Form = () => {
   const checkAnswer = () => {
     if (data) {
    
+      // eslint-disable-next-line eqeqeq
       if (answer == data) {
         setCorrect("Correct");
         setFeedback("That's it! Great Job! 🥳");
       }
 
       
+      // eslint-disable-next-line eqeqeq
       if (answer != data) {
         setCorrect("incorrect");
         setFeedback("Oops, that does not look right 😔");
