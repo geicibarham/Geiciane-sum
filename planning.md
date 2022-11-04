@@ -22,7 +22,7 @@
 <br>
 <li>Second, I reset my CSS to reduce browser inconsistencies (border, margin, font of size headings and etc).</li>
 <br>
-<li>After that, utilizing my teacher's knowledge of second-grader students (their developmental stages and what they are able to do at this age). I then started thinking about what features this app needs to provide a great user experience. Next comes the knowledge on UX that I acquired through courses, practice, and what I do daily at work while building Investor Relations Websites.</li>
+<li>After that, utilizing my teacher's knowledge of second-grader students (their developmental stages and what they are able to do at this age). I then started thinking about what features this app needs to provide a great user experience. Next comes the knowledge on UX that I acquired through courses, practice, and what I do daily at work while building Investor Relations Websites.</li> <br>
 
 <li>I know The app would need to be fun, and colorful, and the main way of communicating with the user would have to be through icons and images. </li>
 <br>
@@ -66,6 +66,6 @@ I would love to implement the possibility for the user to have their score saved
 <li>Creating a state for an array to be saved to local storage</li>
 <li>Every time the user gets the question correctly, the score would increase by 5</li>
 <li>those numbers would be pushed to that initial array, which would also have to be converted to a string since local storage only allows strings</li>
-<li>Use the use Effect hook to get the score from local storage and display it on the page.</li>
+<li>Use the use Effect hook to first convert the data from local storage to a Javascript object, then get the score from local storage and display it on the page.</li>
 </ul>
 </p>

@@ -6,20 +6,17 @@
 }
 
 .Correct {
-  background-color: rgba(0, 128, 0, 0.438);
-  width: 70%;
-  border-radius: 20px;
-  height: 50%;
+  background-color: rgba(0, 128, 0, 0.634);
+
 }
 
 .incorrect {
-  background-color: rgba(255, 0, 0, 0.226);
-  width: 70%;
-  border-radius: 20px;
-  height: 50%;
+  background-color: rgba(255, 0, 0, 0.185);
 }
 .form_container input {
   height: 100px;
+  color:#400082;
+  font-weight: bold;
 }
 
 h3 {
@@ -51,7 +48,7 @@ form {
 }
 
 .form_outer_container {
-  min-height: 85vh;
+  min-height: 80vh;
   background: linear-gradient(
       0deg,
       rgba(15, 15, 15, 0.147),
@@ -77,11 +74,11 @@ form {
 }
 
 .number1 {
-  background-color: #95d577;
+  background-color: #400082;
 }
 
 .number2 {
-  background-color: #008bb6;
+  background-color:#fe346e
 }
 
 .restartButton {
@@ -112,6 +109,7 @@ form {
     display: flex;
     justify-content: center;
     background-position: 75%;
+    min-height: 85vh;
   }
 
   form {
