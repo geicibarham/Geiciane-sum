@@ -54,5 +54,6 @@
 First run "npm run build" to generate the production version of the files, then push your code to a github repo, create an account on netlify (if you don't have one) then connect your repo to netlify and it will build the production app and publish it.</p>
 
 
+## To check more details about the planning proccess and code structure [Click Here](https://github.com/geicibarham/Geiciane-sum/blob/main/planning.md)
 
 
