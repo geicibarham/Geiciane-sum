@@ -10,9 +10,9 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/scores" element={<Score />} />
-          <Route path="play" element={<Form />} />
+          <Route path="/" element={<Landing/>} />
+          <Route path="/scores" element={<Score/>} />
+          <Route path="/play" element={<Form/>} />
         </Routes>
       </BrowserRouter>
       <Footer />

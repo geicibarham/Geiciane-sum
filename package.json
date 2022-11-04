@@ -1,5 +1,4 @@
-{"homepage": "http://geicibarham.github.io/Geiciane-sum",
-  "name": "sumandfun",
+{"name": "sumandfun",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
