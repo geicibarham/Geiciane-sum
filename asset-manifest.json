@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Sum-Fun/static/css/main.e9faf8a6.css",
+    "main.js": "/Sum-Fun/static/js/main.2498e466.js",
+    "static/js/787.f0c866fd.chunk.js": "/Sum-Fun/static/js/787.f0c866fd.chunk.js",
+    "static/media/rainbow.jpg": "/Sum-Fun/static/media/rainbow.35919271440fcf09a6f8.jpg",
+    "static/media/landscape.jpg": "/Sum-Fun/static/media/landscape.96a175cf2d4474a88ea1.jpg",
+    "static/media/rewards.png": "/Sum-Fun/static/media/rewards.f9c3f5a9d5e5aedde1e1.png",
+    "static/media/game.png": "/Sum-Fun/static/media/game.85209c441b2f4190d4a6.png",
+    "index.html": "/Sum-Fun/index.html",
+    "main.e9faf8a6.css.map": "/Sum-Fun/static/css/main.e9faf8a6.css.map",
+    "main.2498e466.js.map": "/Sum-Fun/static/js/main.2498e466.js.map",
+    "787.f0c866fd.chunk.js.map": "/Sum-Fun/static/js/787.f0c866fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9faf8a6.css",
+    "static/js/main.2498e466.js"
+  ]
+}
