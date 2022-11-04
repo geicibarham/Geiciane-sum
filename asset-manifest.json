@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/play/static/css/main.07be0c6d.css",
-    "main.js": "/play/static/js/main.42fd7763.js",
-    "static/js/787.f0c866fd.chunk.js": "/play/static/js/787.f0c866fd.chunk.js",
-    "static/media/rainbow.jpg": "/play/static/media/rainbow.35919271440fcf09a6f8.jpg",
-    "static/media/landscape.jpg": "/play/static/media/landscape.96a175cf2d4474a88ea1.jpg",
-    "static/media/rewards.png": "/play/static/media/rewards.f9c3f5a9d5e5aedde1e1.png",
-    "static/media/game.png": "/play/static/media/game.85209c441b2f4190d4a6.png",
-    "index.html": "/play/index.html",
-    "main.07be0c6d.css.map": "/play/static/css/main.07be0c6d.css.map",
-    "main.42fd7763.js.map": "/play/static/js/main.42fd7763.js.map",
-    "787.f0c866fd.chunk.js.map": "/play/static/js/787.f0c866fd.chunk.js.map"
+    "main.css": "/Geiciane-sum/static/css/main.08bc8d48.css",
+    "main.js": "/Geiciane-sum/static/js/main.c431c53b.js",
+    "static/js/787.f0c866fd.chunk.js": "/Geiciane-sum/static/js/787.f0c866fd.chunk.js",
+    "static/media/rainbow.jpg": "/Geiciane-sum/static/media/rainbow.35919271440fcf09a6f8.jpg",
+    "static/media/landscape.jpg": "/Geiciane-sum/static/media/landscape.96a175cf2d4474a88ea1.jpg",
+    "static/media/rewards.png": "/Geiciane-sum/static/media/rewards.f9c3f5a9d5e5aedde1e1.png",
+    "static/media/game.png": "/Geiciane-sum/static/media/game.85209c441b2f4190d4a6.png",
+    "index.html": "/Geiciane-sum/index.html",
+    "main.08bc8d48.css.map": "/Geiciane-sum/static/css/main.08bc8d48.css.map",
+    "main.c431c53b.js.map": "/Geiciane-sum/static/js/main.c431c53b.js.map",
+    "787.f0c866fd.chunk.js.map": "/Geiciane-sum/static/js/787.f0c866fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07be0c6d.css",
-    "static/js/main.42fd7763.js"
+    "static/css/main.08bc8d48.css",
+    "static/js/main.c431c53b.js"
   ]
 }
