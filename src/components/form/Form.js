@@ -15,7 +15,7 @@ const Form = () => {
 
   useEffect(() => {
     axios
-      .get(`http://api.mathjs.org/v4/?expr=${number1}%2B${number2}`)
+      .get(`https://api.mathjs.org/v4/?expr=${number1}%2B${number2}`)
       .then((res) => {
         setData(res.data);
       });
